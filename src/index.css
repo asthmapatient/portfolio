@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Regular";
+  src: local("BebasNeue-Regular"),
+    url("./assests/fonts/BebasNeue-Regular.ttf") format(truetype);
+}
+
+@layer utilities {
+  .nav-links {
+    @apply relative;
+  }
+
+  .nav-links::after {
+    @apply content-[""] h-[2px] absolute w-0 -bottom-1 left-0  bg-slate-400;
+  }
+
+  .nav-links:hover::after {
+    @apply w-full  transition-all duration-300;
+  }
+
+  .title {
+    @apply text-4xl sm:text-7xl text-white  font-regular;
+  }
+
+  .underline-btn {
+    @apply text-orange pb-1 border-b-2 border-orange  uppercase;
+  }
+}
