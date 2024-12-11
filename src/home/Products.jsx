@@ -10,7 +10,7 @@ const Products = () => {
         </h2>
         <p data-aos="fade-down">
           Here are some of the selected projects that showcase my passion for
-          front-end development.
+          Web development.
         </p>
       </div>
       <div className="grid grid-cols-1 gap-y-10   gap-x-10 md:grid-cols-2">

@@ -5,7 +5,7 @@ import Products from "../home/Products";
 
 const Pages = () => {
   return (
-    <div className="px-10 md:px-16 max-w-7xl mx-auto   sm:px-24    ">
+    <div className="px-10 py-10 md:px-16 max-w-7xl mx-auto   sm:px-24    ">
       <Landing />
       <Products />
       {/* <About /> */}
